@@ -68,4 +68,11 @@ Segun el tipo de variable que se espera utilizamos Tipo.parseTipo();
 Scanner sc = new Scanner(System.in);
 boolean b = Boolean.parseBoolean(sc.nextLine());
 ```
+## 21 JUL
+### Operadores Logicos:
+* ! Negación
+* && Y
+* 11 O
+
+
 
