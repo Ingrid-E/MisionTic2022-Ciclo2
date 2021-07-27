@@ -1,5 +1,2 @@
-Clases/*
-!Clases/**/
-Clases/src/*
-!Clases/src/**/
-!Clases/src/ejercicios/**
+Clases/**/*
+!Clases/src/clases/
