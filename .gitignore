@@ -1,2 +1,5 @@
-Clases/**/*
+!Clases/
+Clases/*
+!Clases/src/
+Clases/src/*
 !Clases/src/clases/
