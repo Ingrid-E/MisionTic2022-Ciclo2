@@ -1,10 +1,5 @@
-# Ignore
-**/build/
-**/nbproject/
-**/test/
-*.xml
-*.mf
-
-# Allow
-!Clases/src/clases
-!Ejercicios/src/ejercicios
+!Clases/
+Clases/*
+!Clases/src/
+Clases/src/*
+!Clases/src/ejercicios/
