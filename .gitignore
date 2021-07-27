@@ -1,7 +1,7 @@
 # Ignore
-/build/
-/nbproject/
-/test/
+**/build/
+**/nbproject/
+**/test/
 .xml
 .mf
 
