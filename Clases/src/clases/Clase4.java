@@ -13,8 +13,8 @@ import java.util.Scanner;
  * @version
  * Description....
  */
-public class Clases4 {
-     public Clases4(){
+public class Clase4 {
+     public Clase4(){
          cadenas();
     }
     public static void ciclos(){

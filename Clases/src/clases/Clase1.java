@@ -4,6 +4,14 @@
  * @file clase1.java
  * @date 19/07/2021
  */
+# Ignore
+Clases/*
+Ejercicios/*
+
+# Allow
+!Clases/src/clases/
+!Ejercicios/src/ejercicios/
+
 
 package clases;
 
@@ -20,7 +28,7 @@ public class Clase1 {
        System.out.println("Hola Mundo");
        //Clase2 dia2 = new Clase2();
        //Clase3 dia3 = new Clase3();
-       Clases4 dia4 = new Clases4();
+       Clase4 dia4 = new Clase4();
     }
 
 }
