@@ -1,5 +1,5 @@
-!Clases/
 Clases/*
-!Clases/src/
+!Clases/**/
 Clases/src/*
-!Clases/src/ejercicios/
+!Clases/src/**/
+!Clases/src/ejercicios/**
