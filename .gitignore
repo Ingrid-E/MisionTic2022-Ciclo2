@@ -1,1 +1,9 @@
 /build/
+
+# Ignore
+Clases/*
+Ejercicios/*
+
+# Allow
+!Clases/src/clases/
+!Ejercicios/src/ejercicios/
