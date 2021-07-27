@@ -2,8 +2,8 @@
 **/build/
 **/nbproject/
 **/test/
-.xml
-.mf
+*.xml
+*.mf
 
 # Allow
 !Clases/src/clases
