@@ -143,7 +143,12 @@ class nombre {
 }
 ```
 No es obligatorio pero es **buena practica**. <br>
+### Modificadores de acceso
 <br>
-*	Public = todos tienen acesso.
-	*	variables, clases, métodos.
+*	Public = todos tienen acceso.
+	*	clase, package, subclase, todos.
+*	Private = restringido.
+	*	clase.
+*	Protected = solo personas con acceso.
+	*	clase, package, subclase.
 
