@@ -17,12 +17,14 @@ package ejercicios;
  * @returns
  */
 public class Ejercicios {
-
+    public static void hola(){
+        
+    }
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Sesion2a ejercicios = new Sesion2a();
+        Sesion6 ejercicios = new Sesion6();
     }
 
 }

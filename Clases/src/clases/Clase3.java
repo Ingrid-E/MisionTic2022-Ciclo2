@@ -14,6 +14,7 @@ import java.util.Scanner;
 public class Clase3 {
 
     public Clase3() {
+        callIMC();
         String hola = (10 > 5) ? "Verdad" : "Falso";
         //callIMC();
         int saludar = 0;
@@ -90,6 +91,7 @@ public class Clase3 {
     ;
     
     public static double imc(double peso, double altura) {
+        System.out.println(peso / (altura * altura));
         return peso / (altura * altura);
     }
 

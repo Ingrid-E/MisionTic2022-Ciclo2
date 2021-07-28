@@ -20,7 +20,7 @@ public class Clase1 {
        System.out.println("Hola Mundo");
        //Clase2 dia2 = new Clase2();
        //Clase3 dia3 = new Clase3();
-       Clase6 dia6 = new Clase6();
+       Clase3 dia3 = new Clase3();
     }
 
 }
