@@ -12,5 +12,8 @@ package clases;
  * Description....
  */
 public class Clase5 {
-
+    public Clase5(){
+        //Añadir lo visto en la clase al inicio
+        
+    }
 }

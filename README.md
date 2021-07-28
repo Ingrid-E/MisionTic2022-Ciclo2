@@ -74,5 +74,76 @@ boolean b = Boolean.parseBoolean(sc.nextLine());
 * && Y
 * 11 O
 
+## Clases y Objetos
+28 JUL <br>
 
+Las clases son la estructura de lo que contiene nuestro objeto y el objeto es cuando especificamos lo que contiene.
+<br>
+Java funciona con la clase principal y esta le indica donde empezar a ejecutarse.
+<br>
+Formas de crear clases en Java:
+<br>
+En el mismo archivo se pueden crear las **clases** con la siguiente estructura <br>
+```JAVA
+public class NombreDeLaClase {
+
+}
+```
+Las clases se escriben en mayusculas, **uppercamelcase**.<br>
+Estas clases como van adentro del archivo main, entonces tenemos que ponerlas **antes** de la clase principal.<br>
+Como esta adentro solo ponemos:
+```JAVA
+class Perro {
+
+}
+```
+Los atributos son variables en Java que van dentro de la clase.
+```JAVA
+class Perro {
+	//Atributos
+	int edad;
+	String raza,perro;
+	booleano esta_vacunado;
+	double peso;
+}
+```
+Los comportamientos o Métodos son funciones en JAVA. <br>
+
+Para las funciones/métodos de una clase no utilizamos el static. <br>
+```JAVA
+class Perro {
+    public void ladrar(){
+        System.out.println("Guau");
+    }
+}
+```
+
+Despues de crear la clase con sus atributos y métodos, debemos crear el objeto llamando esta clase que creamos. <br>
+
+NombreDeLaClase nombre = new NombreDeLaClase(); <br>
+
+Para crear el objeto, nos falta añadirle las caracteristicas, para eso debemos crear un constructor en la clase. <br>
+La estructura de un constructor es el siguiente: <br>
+```JAVA
+class nombre {
+    public nombre(parametros){
+        ...codigo;
+    }
+}
+```
+Con el constructor podemos inicializar los atributos que son especificos para nuestro objetos <br>
+Si nuestros parametros tienen el mismo nombre que el atributo que vamos a utilizar, o siempre cuando utilizamos un atributo de nuestra clase utilizamos el **this** para diferenciar nuestra variable que esta declarada dentro del metodo. <br>
+Ejemplo:
+```JAVA
+class nombre {
+	int numero,
+    public nombre(int numero){
+		this.numero = numero;
+    }
+}
+```
+No es obligatorio pero es **buena practica**. <br>
+<br>
+*	Public = todos tienen acesso.
+	*	variables, clases, métodos.
 
