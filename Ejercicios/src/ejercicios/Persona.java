@@ -14,6 +14,7 @@ public class Persona {
     char genero;
     double peso;
     double altura;
+    String apellidos;
     //Constructor
     public Persona(String nombre, int edad, char genero, double peso, double altura){
         this.nombre = nombre;
@@ -21,6 +22,11 @@ public class Persona {
         this.genero = genero;
         this.peso = peso;
         this.altura = altura;
+    }
+    public Persona(String nombre, String apellidos, int edad){
+        this.nombre = nombre;
+        this.apellidos = apellidos;
+        this.edad = this.edad;
     }
     //Métodos
     /**
@@ -74,5 +80,51 @@ public class Persona {
                              "Altura: " + this.altura;
         System.out.println(informacion);
         return persona.toString();
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getApellidos() {
+        return apellidos;
+    }
+}
+
+class Profesor extends Persona {
+    public String materia;
+    public String institucion;
+    public String rol;
+    public double sueldo;
+    public int horasTrabajo;
+    public Profesor(String nombre, String apellidos, int edad, String materia, String institucion, String rol, double sueldo, int horasTrabajo){
+        super(nombre, apellidos, edad);
+        this.materia = materia;
+        this.institucion = institucion;
+        this.rol = rol;
+        this.sueldo = sueldo;
+        this.horasTrabajo = horasTrabajo;
+    }
+    public void darClases(){
+        System.out.println("Buenos dias, compañeros");
+    }
+    public void regañar(){
+        System.out.println("Se callan!");
+    }
+}
+
+class Alumno extends Persona {
+    int semestre;
+    int codigoEstudiantil;
+    public Alumno(String nombre, String apellidos, int edad, int semestre, int codigoEstudiantil){
+        super(nombre, apellidos, edad);
+        this.semestre = semestre;
+        this.codigoEstudiantil = codigoEstudiantil;
+    }
+    public void preguntar(){
+        System.out.println("No entiendo esta parte");
+    }
+    public void comer(){
+        System.out.println("Comer");
     }
 }

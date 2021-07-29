@@ -17,14 +17,26 @@ package ejercicios;
  * @returns
  */
 public class Ejercicios {
-    public static void hola(){
-        
-    }
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        Sesion6 ejercicios = new Sesion6();
+        sonLetras("Minsos4dia");
+    }
+    
+    public static void sonLetras(String cadena){
+        //Opcion que toma los espacios
+        System.out.println(cadena.matches("[\' 'a-zA-Z]+"));
+        System.out.println(Character.isLetter('A'));
+        //Opcion que no toma los espacios
+        for(int i = 0; i< cadena.length(); i++){
+            //Solucion 1
+            if(!((cadena.charAt(i) >= 'A' && cadena.charAt(i) <= 'Z') || (cadena.charAt(i) >= 'a' && cadena.charAt(i) <= 'z')) && cadena.charAt(i) != ' '){
+                System.out.println("rango: FALSO");
+            }
+            //Solucion 2
+            if(!Character.isLetter(cadena.charAt(i)) && cadena.charAt(i) != ' '){
+                System.out.println("isLetter: FALSO");
+            }
+        }
+        System.out.println("TRUE");
     }
 
 }
