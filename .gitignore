@@ -9,3 +9,9 @@ Ejercicios/*
 !Ejercicios/src/
 Ejercicios/src/*
 !Ejercicios/src/ejercicios/
+
+!Retos/
+Retos/*
+!Retos/src/
+Retos/src/*
+!Retos/src/retos/

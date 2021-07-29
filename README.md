@@ -152,3 +152,25 @@ No es obligatorio pero es **buena practica**. <br>
 *	Protected = solo personas con acceso.
 	*	clase, package, subclase.
 
+**Estudiar Herencia y sus relaciones**
+
+
+## Polimorfismo
+
+*	Sobrecarga : Cuando en 1 clase se tiene varios metodos llamados iguales pero con diferentes parametros.
+*	Sobre escritura: Cuando el mismo metodo aparece en dos clases que se extiende de otra. 
+
+### Relaciones
+Tienen propósito determinar como se comunican los objetos.
+*	Asociación:  Cuando un objeto de una clase se puede comunicar con un objeto de otra clase.
+	*	Se representa con una fecha apuntando de la clase objeto que accede a la clase accedida.
+*	Inclusión: Cuando un objeto es un atributo de otro objeto.
+	*	Se representa con un rombo relleno o no.
+	*	Debil Agregación rombito no relleno.
+	*	Fuerte Composición rombito relleno.
+*	Dependencia: Objeto que depende de otro objeto para funcionar.
+	*	
+
+El * representa muchos, o  cero. 0*: 0 o muchas 1*: 1 o muchas.
+
+
