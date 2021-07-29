@@ -18,20 +18,18 @@ package ejercicios;
  */
 public class Ejercicios {
     public static void main(String[] args) {
-        sonLetras("Minsos4dia");
+        sonLetras("Minso dia");
     }
     
     public static void sonLetras(String cadena){
-        //Opcion que toma los espacios
+        //Solucion 1
         System.out.println(cadena.matches("[\' 'a-zA-Z]+"));
-        System.out.println(Character.isLetter('A'));
-        //Opcion que no toma los espacios
         for(int i = 0; i< cadena.length(); i++){
-            //Solucion 1
+            //Solucion 2
             if(!((cadena.charAt(i) >= 'A' && cadena.charAt(i) <= 'Z') || (cadena.charAt(i) >= 'a' && cadena.charAt(i) <= 'z')) && cadena.charAt(i) != ' '){
                 System.out.println("rango: FALSO");
             }
-            //Solucion 2
+            //Solucion 3
             if(!Character.isLetter(cadena.charAt(i)) && cadena.charAt(i) != ' '){
                 System.out.println("isLetter: FALSO");
             }
