@@ -12,29 +12,20 @@
 
 package ejercicios;
 
+import ejercicios.Futbol.Jugador;
+import ejercicios.Futbol.SeleccionFutbol;
+
 /**
  * Main class
  * @returns
  */
 public class Ejercicios {
     public static void main(String[] args) {
-        sonLetras("Minso dia");
+        SeleccionFutbol colombia = new SeleccionFutbol("Colombia", 5, "Colombia");
+        Jugador pikachu = new Jugador("Pika", 16, 5000, "9");
+        colombia.agregarJugador(pikachu);
+        
     }
     
-    public static void sonLetras(String cadena){
-        //Solucion 1
-        System.out.println(cadena.matches("[\' 'a-zA-Z]+"));
-        for(int i = 0; i< cadena.length(); i++){
-            //Solucion 2
-            if(!((cadena.charAt(i) >= 'A' && cadena.charAt(i) <= 'Z') || (cadena.charAt(i) >= 'a' && cadena.charAt(i) <= 'z')) && cadena.charAt(i) != ' '){
-                System.out.println("rango: FALSO");
-            }
-            //Solucion 3
-            if(!Character.isLetter(cadena.charAt(i)) && cadena.charAt(i) != ' '){
-                System.out.println("isLetter: FALSO");
-            }
-        }
-        System.out.println("TRUE");
-    }
 
 }
